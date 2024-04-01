@@ -683,7 +683,7 @@ backdrop-filter: blur(6.3px);
   height: 150px;
 }
 .contact-form input[type="submit"] {
-  background-color: #4CAF50;
+  background-color: #F1916D;
   color: white;
   border: none;
   padding: 15px 20px;
@@ -691,12 +691,14 @@ backdrop-filter: blur(6.3px);
   border-radius: 5px;
 }
 .contact-form input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #F1916D;
 }
-.footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0;
+
+/* footer */
+.footer{
+  background-color: #473E66;
+  color: #F1916D;
+   padding: 20px 0;
   text-align: center;
 }
 
@@ -706,7 +708,6 @@ backdrop-filter: blur(6.3px);
 ::-webkit-scrollbar {
   width: 8px;
 }
-
 
 ::-webkit-scrollbar-thumb {
   background: #7f8c8dda; 
