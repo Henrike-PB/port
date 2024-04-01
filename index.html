@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- efeito de revelar no scroll -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <link rel="shortcut icon" href="media/icone.png" type="image/x-icon">
+        <link rel="icon" href="media/icone.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- Icones do BoxIcons -->
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <!-- Icones do BOOTSTRAP -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        />
+
+        <title>Henrike Pajares Braga</title>
+    </head>
+    <body>
+        <!-- carregamento do portfolio -->
+        <div id="overlay">
+            <h2>Explore este mundo</h2>
+            <div id="lamp" onclick="turnOnLight()"></div>
+            <h4>Henrike Pajares Braga &copy;</h4>
+        </div>
+        <div id="content" style="display: none">
+        
+           
+            <!-- menu -->
+            <header>
+                <div class="menu">
+                    <img src="media/icone.png" alt="logo" width="50" height="50">
+                    <nav>
+                        <div class="toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul class="ul">
+                            <li><a class="active" id="active" href="#home">Home</a></li>
+                            <li><a href="#tech">Tecnologias</a></li>
+                            <li><a href="#skills">Soft Skills</a></li>
+                            <li><a href="#projetos">Projetos</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </nav>
+                    <!-- <button><i class="fa-solid fa-right-to-bracket"></i>Contato</button> -->
+                </div>
+            </header>
+
+     
+
+
+            <!--Aba de sobre mim com social media  -->
+            <div id="home" class="section">
+                <div class="social">
+                    <img id="henrike" src="media/henrike.png" alt="" />
+
+                    <div class="buttons">
+                        <a href="https://www.linkedin.com/in/henrikebraga/"
+                            ><i class="bx bxl-linkedin-square"></i
+                        ></a>
+                        <a href="https://github.com/Henrike-PB"
+                            ><i class="bx bxl-github"></i
+                        ></a>
+                        <a href="https://www.instagram.com/henrike_pajares/"
+                            ><i class="bx bxl-instagram" src=""></i
+                        ></a>
+                    </div>
+                </div>
+
+                <!-- Aba com frase de efeito e breve biografia -->
+                <div class="biografia">
+                    <h1 class="area-1">
+                        Oi,<br />
+                        eu me chamo <br />
+                        <span>Henrike</span>
+                    </h1>
+                    <p class="frase"><span class="typing"></span></p>
+                    <!-- Alternativa para usuários sem JavaScript ativado -->
+                    <noscript>
+                        <p class="frase">
+                            Carpe diem: "Aproveite o dia e deixe o mínimo
+                            possível para o amanhã".
+                        </p>
+                    </noscript>
+                    <br />
+                    <br />
+                    <p class="sobre-mim">
+                        Olá, meu nome é Henrike Pajares Braga. <br>
+                        Sou uma pessoa que está sempre em busca de conhecer e aprender, estudo programação e acredito que com tecnologia e boas ideas podemos transformar a nossa realidade. <br>
+                        
+                    </p>
+                </div>
+            </div>
+
+            <!-- Aba sobre tecnologias que utilizo -->
+            <section class="tech" id="tech">
+                <h2 class="heading">Tecnologias</h2>
+                <div class="tech-container">
+
+                    <div class="tech-box">
+                        <div class="tech-info">
+                            <h4>HTML <i class="bx bxl-html5"></i></h4>
+                            <p>
+                                HTML, ou Linguagem de Marcação de Hipertexto, é
+                                a espinha dorsal de uma página web. Ela define a
+                                estrutura e o conteúdo usando uma variedade de
+                                elementos e tags predefinidos, criando a base
+                                para a experiência digital
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="tech-box">
+                        <div class="tech-info">
+                            <h4>CSS <i class="bx bxl-css3"></i></h4>
+                            <p>
+                                CSS, ou Folhas de Estilo em Cascata, é o toque
+                                de estilo que dá vida às páginas web. Ele
+                                permite controlar cores, fontes, layout e muito
+                                mais, transformando o HTML em designs
+                                visualmente cativantes e coesos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="tech-box">
+                        <div class="tech-info">
+                            <h4>
+                                JavaScript
+                                <i class="bx bxl-javascript square"></i>
+                            </h4>
+                            <p>
+                                Linguagem de programação por trás da
+                                interatividade na web. Esta linguagem dinâmica e
+                                versátil permite criar animações, formulários
+                                inteligentes, comunicação com servidores e até
+                                mesmo jogos, tornando as páginas web mais
+                                dinâmicas e envolventes.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="tech-box">
+                        <div class="tech-info">
+                            <h4>Canva <i class="bx bxs-palette"></i></h4>
+                            <p>
+                                Com o Canva, você desbloqueia seu potencial
+                                criativo. Esta plataforma de design gráfico
+                                online oferece uma ampla gama de ferramentas e
+                                recursos para criar conteúdos visuais incríveis,
+                                desde mídias sociais até apresentações e
+                                convites, tornando o design acessível para
+                                todos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="tech-box">
+                        <div class="tech-info breve">
+                            <h4>Em breve! <i class="bx bxs-bulb"></i></h4>
+                            <p>
+                                Estou buscando me aperfeiçoar cada vez mais,
+                                estudando novas tecnologias, ferramentas e
+                                absorvendo conhecimento.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Aba sobre minhas habilidades de soft skills  -->
+            <section id="skills" class="soft">
+                <div class="conteudo">
+                    <h2 class="area-02">Principais <span>Soft Skills</span></h2>
+                    <div class="flex">
+                        <div class="skills-box">
+                            <i class="bi bi-pencil-square"></i>
+                            <h3>Escrita</h3>
+                            <p>
+                                A habilidade de expressar ideias de forma clara
+                                e persuasiva por meio de palavras escritas,
+                                comunicando efetivamente mensagens e informações
+                                para diversos públicos e propósitos.
+                            </p>
+                        </div>
+
+                        <div class="skills-box">
+                            <i class="bi bi-people-fill"></i>
+                            <h3>Trabalho em Equipe</h3>
+                            <p>
+                                A capacidade de colaborar harmoniosamente com
+                                outros indivíduos em busca de objetivos comuns,
+                                contribuindo ativamente, ouvindo atentamente e
+                                respeitando as opiniões e habilidades de todos
+                                os membros da equipe.
+                            </p>
+                        </div>
+
+                        <div class="skills-box">
+                            <i class="bi bi-megaphone-fill"></i>
+                            <h3>Comunicação</h3>
+                            <p>
+                                A aptidão para transmitir informações de maneira
+                                clara, concisa e compreensível, utilizando uma
+                                variedade de canais e métodos para garantir que
+                                a mensagem seja recebida e entendida pelo
+                                destinatário
+                            </p>
+                        </div>
+
+                        <div class="skills-box">
+                            <i class="bi bi-wind"></i>
+                            <h3>Resiliência</h3>
+                            <p>
+                                A habilidade de se adaptar e se recuperar de
+                                adversidades, desafios e fracassos, mantendo uma
+                                atitude positiva, perseverança e capacidade de
+                                enfrentar obstáculos com determinação e
+                                confiança.
+                            </p>
+                        </div>
+
+                        <div class="skills-box">
+                            <i class="bi bi-book-half"></i>
+                            <h3>Aprendizado</h3>
+                            <p>
+                                A disposição e capacidade de adquirir novos
+                                conhecimentos, habilidades e experiências de
+                                forma contínua, buscando oportunidades de
+                                desenvolvimento pessoal e profissional e
+                                refletindo sobre os aprendizados para melhorar
+                                constantemente.
+                            </p>
+                        </div>
+
+                        <div class="skills-box">
+                            <i class="bi bi-stars"></i>
+                            <h3>Pensamento Criativo</h3>
+                            <p>
+                                A capacidade de gerar ideias originais e
+                                inovadoras, abordar problemas de maneiras não
+                                convencionais, e conectar conceitos
+                                aparentemente desconexos para encontrar soluções
+                                imaginativas e eficazes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- Aba dos Projetos -->
+            <h2 id="projetos" class="projetos-titulo">Projetos</h2>
+            <div style="transform: translateY(10%);">
+                <section class="projetos">
+                    <div class="slider">
+                        <!-- list Items -->
+                        <div class="list">
+                            <div class="item active">
+                                <img class="hover-img" src="media/innova.png" />
+                                <div class="content" style="transform: translateY(-20%); color: #F1916D;" >
+                                    <p>design</p>
+                                    <h2 class="descricao">INNOVA</h2>
+
+                                    <p  class="sub">
+
+                                        Projeto INNOVA, realizado em grupo para o Projeto Família no Instituto da Oportunidade Social.
+                                    </p>
+                                    <button><a href="">VER</a></button>
+                                    <button><a href="">REPOSITÒRIO</a></button>
+                                    
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="media/gol.png" />
+                                <div class="content" style="transform: translateY(-20%); color: #F1916D;">
+                                    <p>design</p>
+                                    <h2  class="descricao" >Game of Old Lady</h2>
+
+                                    <p  class="sub">
+                                        Projeto de Jogo da Velha desenvolvido em JavaScript, tendo função de mudar o tema da partida.
+                                        
+                                    </p>
+                                    <button><a href="">VER</a></button>
+                                    <button><a href="">REPOSITÒRIO</a></button>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="media/cap.png" />
+                                <div class="content" style="transform: translateY(-20%); color: #F1916D;">
+                                    <p>design</p>
+                                    <h2 class="descricao" >CAP'S LETTERS</h2>
+
+                                    <p class="sub" >
+
+                                       Landing Page desenvolvida para abordar o futuro da programação, foi criada identidade visual para o site.
+                                    </p>
+                                    <button><a href="">VER</a></button>
+                                    <button><a href="">REPOSITÒRIO</a></button>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="media/cafe.png" />
+                                <div class="content" style="transform: translateY(-20%); color: #F1916D;">
+                                    <p>design</p>
+                                    <h2 class="descricao">Café</h2>
+                                    <p class="sub" >
+                                        
+                                        Página sobre café, aplicando técnicas de parallax.
+                                    </p>
+                                    <button><a href="">VER</a></button>
+                                    <button><a href="">REPOSITÒRIO</a></button>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="media/space.png" />
+                                <div class="content" style="transform: translateY(-20%); color: #F1916D;">
+                                    <p>design</p>
+                                    <h2 class="descricao" >Sistema Solar</h2>
+                                    <p class="sub" >
+
+
+                                        Landing Page sobre o Sistema Solar, aplicando estudo de HTML, CSS e tecnicas de parallax.
+                                    </p>
+                                    <button><a href="">VER</a></button>
+                                    <button><a href="">REPOSITÒRIO</a></button>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <img src="media/souls.png" />
+                                <div class="content" style="transform: translateY(-20%); color: #F1916D;">
+                                    <p>design</p>
+                                    <h2  class="descricao">Quiz</h2>
+                                    <p  class="sub">
+
+                                        Jogo de perguntas (Quiz) com o tema do jogo eletrônico "Dark Souls", desenvolvido com JavaScript.
+                                    </p>
+                                    <button><a href="">VER</a></button>
+                                    <button><a href="">REPOSITÒRIO</a></button>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <img src="media/calc.png" />
+                                <div class="content" style="transform: translateY(-20%); color: #F1916D;">
+                                    <p>design</p>
+                                    <h2 class="descricao">Vincent's Calculator</h2>
+                                    <p  class="sub">
+
+
+                                        Calculadora desenvolvida com JavaScript, utilizando de inspiração as pinturas de Van Gohg.
+                                    </p>
+                                    <button><a href="">VER</a></button>
+                                    <button><a href="">REPOSITÒRIO</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- button arrows -->
+                        <div class="arrows">
+                            <button id="prev"><</button>
+                            <button id="next">></button>
+                        </div>
+                        <!-- thumbnail -->
+                        <div class="thumbnail">
+                            <div class="item active">
+                                <img src="media/innova-mob.png" />                       
+                            
+                            <div class="content" style="background-color: #F1916D; border-radius: 5%;padding: 2%; text-align: center;">Mobile <i class="bi bi-phone-fill"></i></div>
+                            </div>
+                            <div class="item">
+                                <img src="media/gol-mob.png" />
+                                <div class="content" style="background-color: #F1916D; border-radius: 5%;padding: 2%; text-align: center;">Mobile <i class="bi bi-phone-fill"></i></div>
+                            </div>
+                            <div class="item">
+                                <img src="media/cap-mob.png" />
+                                <div class="content" style="background-color: #F1916D; border-radius: 5%;padding: 2%; text-align: center;">Mobile <i class="bi bi-phone-fill"></i></div>
+                            </div>
+                            <div class="item">
+                                <img src="media/cafe-mob.png" />
+                                <div class="content" style="background-color: #F1916D; border-radius: 5%;padding: 2%; text-align: center;">Mobile <i class="bi bi-phone-fill"></i></div>
+                            </div>
+                            <div class="item">
+                                <img src="media/space-mob.png" />
+                                <div class="content" style="background-color: #F1916D; border-radius: 5%;padding: 2%; text-align: center;">Mobile <i class="bi bi-phone-fill"></i></div>
+                            </div>
+                            <div class="item">
+                                <img src="media/souls-mob.png" />
+                                <div class="content" style="background-color: #F1916D; border-radius: 5%;padding: 2%; text-align: center;">Mobile <i class="bi bi-phone-fill"></i></div>
+                            </div>
+                            <div class="item">
+                                <img src="media/calc-mob.png" />
+                                <div class="content" style="background-color: #F1916D; border-radius: 5%;padding: 2%; text-align: center;">Mobile <i class="bi bi-phone-fill"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+            <hr>
+        
+            <section id="contato" class="contact">
+                <h2 >Me envie uma mensagem!</h2>
+                <div class="container">
+                    <section class="contact-form">
+                        <h2>Entre em Contato</h2>
+                        <form action="mailto:pajaresbragahenrike@gmail.com" method="post" enctype="text/plain">
+                            <label for="name">Nome:</label>
+                            <input type="text" id="name" name="name" required>
+            
+                            <label for="email">Email:</label>
+                            <input type="text" id="email" name="email" required>
+            
+                            <label for="message">Mensagem:</label>
+                            <textarea id="message" name="message" required></textarea>
+            
+                            <input type="submit" value="Enviar">
+                        </form>
+                    </section>
+                </div>
+                <footer class="footer">
+                    <div class="container">
+                       
+                        <p>Email: pajaresbragahenrike@gmail.com</p>
+                        <p>Desenvolvido por Henrike Pajares Braga &copy;</p>
+                    </div>
+                </footer>
+    
+    
+            </section>
+        </div><!--div que abrange tudo-->
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+            integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+
+        <script src="app.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
